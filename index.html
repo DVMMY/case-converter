@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+	<title>Case Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container"> 
+	<h1>Case Converter</h1>
+	<div class="row">
+		<p>Type or paste your text in the text area below.</p>
+		<textarea class="form-control" id="text" rows="10"></textarea>
+	</div>
+	<div class="row buttons">
+		<button type="button" class="btn btn-primary" onclick="upperCase()">UPPERCASE</button>
+	  	<button type="button" class="btn btn-success" onclick="lowerCase()">lowercase</button>
+	 	<button type="button" class="btn btn-warning" onclick="sentCase()">Sentence case</button>
+	 	<button type="button" class="btn btn-danger" onclick="titleCase()">Title Case</button>
+	</div>
+</div>
+	
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="convert.js"></script>
+</body>
+</html>
